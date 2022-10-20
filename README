@@ -1,6 +1,11 @@
-Discussion:
+Window Recorder
+==
 
-   https://old.reddit.com/r/programming/comments/y8osul/a_console_based_x_windows_window_movie_recorder/?
+A way to create movies of the contents of windows in Shell.
+
+Usable from the command line.
+
+==
 
 A basic example:
 
@@ -19,6 +24,12 @@ This is how you use the library:
     $ mplayer movie.mp4
     $ ./uninit.sh # Unmount var/
     $ ./clean.sh # Remove tmp/
+
+==
+
+Discussion:
+
+   https://old.reddit.com/r/programming/comments/y8osul/a_console_based_x_windows_window_movie_recorder/?
 
 --
 Burton Samograd
