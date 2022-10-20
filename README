@@ -1,2 +1,10 @@
 $ ./init.sh browser-recording/
 $ ./make-movie.mp4.sh
+
+$ ./init.sh new-movie/ # Initialize tmp/ and mount var/
+$ ./run # Record window frames
+# Sometime later...^C
+$ ./make-movie.mp4.sh # Generate movie.mp4
+$ mplayer movie.mp4
+$ ./uninit.sh # Unmount var/
+$ ./clean.sh # Remove tmp/
