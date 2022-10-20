@@ -1,0 +1,7 @@
+#!/bin/ksh
+
+while true; do
+    ./gc.sh
+    sleep 1
+done
+

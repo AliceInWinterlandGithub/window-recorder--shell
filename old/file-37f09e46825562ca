@@ -1,0 +1,11 @@
+#!/bin/bash
+
+frame=1
+
+while true; do
+      echo -n .
+      xwd -id 0x3800003 > tmp/${frame}.xwd
+      frame=$((frame+1))
+      sleep .1
+done
+

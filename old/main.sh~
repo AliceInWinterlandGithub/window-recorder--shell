@@ -1,0 +1,12 @@
+#!/bin/bash
+
+id=$(xwininfo | grep id: | while read junk junk2 idcolon id xs; do echo $id; done)
+frame=1
+
+while true; do
+      echo -n .
+      xwd -id ${id} > tmp/${frame}.xwd
+      frame=$((frame+1))
+      sleep .1
+done
+

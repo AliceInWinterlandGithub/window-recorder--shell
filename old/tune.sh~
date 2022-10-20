@@ -1,0 +1,1 @@
+watch "ls ${1} | shuf | head -n 25"

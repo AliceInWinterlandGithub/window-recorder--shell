@@ -1,0 +1,2 @@
+$ ./init.sh browser-recording/
+$ ./make-movie.mp4.sh

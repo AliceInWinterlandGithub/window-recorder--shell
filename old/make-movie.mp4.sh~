@@ -1,0 +1,1 @@
+ffmpeg -r 6 -f image2 -i 'var/%d.jpg' movie.mp4
